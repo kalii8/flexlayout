@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: grey;
+    color: white;
+    padding: 4rem;
+    font-size: 400%;
+    font-weight: bold;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    height: 600px;
+}
+
+.siderbar {
+    flex: 20%;
+    background-color: orangered;
+    color: white;
+    font-size: 400%;
+    text-align: center;
+    padding: 4rem;
+    font-weight: bold;
+}
+
+.article {
+    flex: 80%;
+    color: gray;
+    font-size: 400%;
+    padding: 4rem;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 1rem;
+    text-align: justify;
+    border-top: 2px solid darkgrey;
+    padding-top: 2rem;
+    font-weight: 100;
+}
+
+.footer {
+    background-color: lightgrey;
+    color: white;
+    padding: 4rem;
+    font-size: 400%;
+    font-weight: bold;
+}
