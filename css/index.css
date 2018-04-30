@@ -18,19 +18,27 @@ body {
 
 .flex-container {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     align-items: stretch;
-    height: 600px;
+    
 }
 
 .siderbar {
-    flex: 20%;
+    flex-basis: 20%;
     background-color: orangered;
     color: white;
     font-size: 400%;
     text-align: center;
     padding: 4rem;
     font-weight: bold;
+    align-self: stretch;
+}
+
+@media only screen and (min-width: 800px){
+    .flex-container{
+            flex-flow: row nowrap;
+            align-items: stretch;
+    }
 }
 
 .article {
@@ -39,6 +47,7 @@ body {
     font-size: 400%;
     padding: 4rem;
     font-weight: bold;
+    align-self: stretch;
 }
 
 .text {
